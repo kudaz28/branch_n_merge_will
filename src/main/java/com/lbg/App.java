@@ -8,6 +8,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        VATCalculator vc = new VATCalculator();
+        
+        System.out.println( "VAT: " + vc.calculateVATToPay(100, 20 ));
     }
 }
